@@ -6,6 +6,8 @@ import AboutAndFAQs from './components/AboutAndFAQs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SEO from './components/SEO';
+import WhatsAppButton from './components/WhatsAppButton';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
       <AboutAndFAQs />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
