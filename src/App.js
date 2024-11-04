@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Testimonials from './components/Testimonials';
+import AboutAndFAQs from './components/AboutAndFAQs';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import SEO from './components/SEO';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-gray-800">
+      <SEO
+        title="Cookie's Auto - Reliable Mobile Mechanic in Olney and Surrounding Areas"
+        description="Cookie's Auto offers reliable mobile mechanic services in Olney, Milton Keynes, Newport Pagnell, Bedford, and surrounding areas. Contact us for car repairs, diagnostics, and more."
+        keywords="mobile mechanic, Olney car repair, Milton Keynes auto service, Newport Pagnell mechanic, Bedford car diagnostics, car servicing Olney, mobile car repair"
+        image={`${process.env.PUBLIC_URL}/assets/og-image.jpg`}
+        url="https://cookiesauto.com"
+      />
+
+      <Hero />
+      <Services />
+      <Testimonials />
+      <AboutAndFAQs />
+      <Contact />
+      <Footer />
     </div>
   );
 }
