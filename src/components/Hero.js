@@ -18,7 +18,7 @@ const Hero = () => {
           {/* Left Side - Image with Booking Form */}
           <div className="relative hidden md:block md:w-3/5 flex items-center justify-center bg-gray-100">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/hero.png`}
+              src={`${process.env.PUBLIC_URL}/assets/hero.webp`}
               alt="Mechanic with tools"
               className="w-full h-full object-cover"
             />
@@ -70,7 +70,7 @@ const Hero = () => {
             {/* Contact Info */}
             <div className="flex items-center space-x-4 mt-6">
               <img
-                src={`${process.env.PUBLIC_URL}/assets/cookie-placeholder.png`}
+                src={`${process.env.PUBLIC_URL}/assets/cookie-placeholder.webp`}
                 alt="Simon Cook - Cookies Auto - Mobile Mechanic"
                 className="rounded-full w-12 h-12 border-2 border-white"
               />

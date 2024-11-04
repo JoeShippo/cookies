@@ -5,7 +5,7 @@ const Contact = () => (
     id="contact"
     className="py-16 relative"
     style={{
-      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/testimonial-image.jpg)`,
+      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/testimonial-image.webp)`,
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
