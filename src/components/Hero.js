@@ -60,7 +60,7 @@ const Hero = () => {
               Welcome to Cookie's Auto
             </p>
             <h1 className="text-4xl font-bold mb-4">
-              Highly skilled certified mechanics guaranteed.
+            Expert mobile mechanic services you can rely on.
             </h1>
             <p className="mb-6 text-gray-200">
               Your reliable mobile mechanic looking after Olney &amp; surrounding areas.
